@@ -1,0 +1,108 @@
+277:282  10:042  Found BIOS RSDP at F0000
+277:282  0:000  Printing ACPI tables from RSDP F0000 ...
+277:282  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+277:282  0:000    (Xsdt: CA9EE080, Rsdt: CA9EE028)
+277:282  0:000    CA9EE080: 'XSDT', 'A M I', Rev: 1, Len: 124
+277:282  0:000    CA9EE028: 'RSDT', 'A M I', Rev: 1, Len: 80
+277:282  0:000    Tables in Xsdt: 11
+277:282  0:000    0. CA9FA9A0: 'FACP', 'A M I', Rev: 5, Len: 268
+277:282  0:000        (Dsdt: CA9EE190, Facs: CAA1F080, XDsdt: CA9EE190, XFacs: 0)
+277:282  0:000        CA9EE190: 'DSDT', 'A M I', Rev: 2, Len: 51212
+277:282  0:000        CAA1F080: 'FACS', Ver: 2, Len: 64
+277:282  0:000    1. CA9FAAB0: 'APIC', 'A M I', Rev: 3, Len: 114
+277:282  0:000    2. CA9FAB28: 'FPDT', 'A M I', Rev: 1, Len: 68
+277:282  0:000    3. CA9FAB70: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+277:282  0:000    4. CA9FB0B0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+277:282  0:000    5. CA9FBB88: 'MCFG', 'A M I', Rev: 1, Len: 60
+277:282  0:000    6. CA9FBBC8: 'HPET', 'A M I', Rev: 1, Len: 56
+277:282  0:000    7. CA9FBC00: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+277:282  0:000    8. CA9FBF70: 'SSDT', 'SaSsdt', Rev: 1, Len: 13537
+277:282  0:000    9. CA9FF458: 'BGRT', 'A M I', Rev: 0, Len: 56
+277:282  0:000    10. CA9FF490: 'DMAR', 'HSW', Rev: 1, Len: 168
+277:282  0:000    Tables in Rsdt: 11
+277:282  0:000    0. CA9EE108: 'FACP', 'A M I', Rev: 2, Len: 132
+277:282  0:000        (Dsdt: CA9EE190, Facs: CAA1F040)
+277:282  0:000        CA9EE190: 'DSDT', 'A M I', Rev: 2, Len: 51212
+277:282  0:000        CAA1F040: 'FACS', Ver: 0, Len: 64
+277:282  0:000    1. CA9FAAB0: 'APIC', 'A M I', Rev: 3, Len: 114
+277:282  0:000    2. CA9FAB28: 'FPDT', 'A M I', Rev: 1, Len: 68
+277:282  0:000    3. CA9FAB70: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+277:282  0:000    4. CA9FB0B0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+277:282  0:000    5. CA9FBB88: 'MCFG', 'A M I', Rev: 1, Len: 60
+277:282  0:000    6. CA9FBBC8: 'HPET', 'A M I', Rev: 1, Len: 56
+277:282  0:000    7. CA9FBC00: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+277:282  0:000    8. CA9FBF70: 'SSDT', 'SaSsdt', Rev: 1, Len: 13537
+277:282  0:000    9. CA9FF458: 'BGRT', 'A M I', Rev: 0, Len: 56
+277:282  0:000    10. CA9FF490: 'DMAR', 'HSW', Rev: 1, Len: 168
+277:282  0:000  Found UEFI Acpi 2.0 RSDP at CA9EE000
+277:282  0:000  Saving ACPI tables from RSDP CA9EE000 to EFI\CLOVER\ACPI\origin ...
+277:282  0:000   CA9EE000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+277:286  0:004    (Xsdt: CA9EE080, Rsdt: CA9EE028)
+277:286  0:000    CA9EE080: 'XSDT', 'A M I', Rev: 1, Len: 124 -> XSDT.aml
+277:289  0:002    CA9EE028: 'RSDT', 'A M I', Rev: 1, Len: 80 -> RSDT.aml
+277:293  0:004    Tables in Xsdt: 11
+277:293  0:000    0. CA9FA9A0: 'FACP', 'A M I', Rev: 5, Len: 268 -> FACP.aml
+277:295  0:002        (Dsdt: CA9EE190, Facs: CAA1F080, XDsdt: CA9EE190, XFacs: 0)
+277:295  0:000        CA9EE190: 'DSDT', 'A M I', Rev: 2, Len: 51212 -> DSDT.aml
+277:318  0:022        CAA1F080: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+277:320  0:002    1. CA9FAAB0: 'APIC', 'A M I', Rev: 3, Len: 114 -> APIC.aml
+277:324  0:004    2. CA9FAB28: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+277:327  0:002    3. CA9FAB70: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337 -> SSDT-0.aml
+277:331  0:003    4. CA9FB0B0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776 -> SSDT-1.aml
+277:333  0:002    5. CA9FBB88: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+277:336  0:002    6. CA9FBBC8: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+277:340  0:004    7. CA9FBC00: 'SSDT', 'SataTabl', Rev: 1, Len: 877 -> SSDT-2.aml
+277:343  0:002    8. CA9FBF70: 'SSDT', 'SaSsdt', Rev: 1, Len: 13537 -> SSDT-3.aml
+277:352  0:008    9. CA9FF458: 'BGRT', 'A M I', Rev: 0, Len: 56 -> BGRT.aml
+277:354  0:002    10. CA9FF490: 'DMAR', 'HSW', Rev: 1, Len: 168 -> DMAR.aml
+277:358  0:004    Tables in Rsdt: 11
+277:358  0:000    0. CA9EE108: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+277:361  0:002        (Dsdt: CA9EE190, Facs: CAA1F040)
+277:361  0:000        CA9EE190: 'DSDT', 'A M I', Rev: 2, Len: 51212
+277:361  0:000        CAA1F040: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+277:364  0:002    1. CA9FAAB0: 'APIC', 'A M I', Rev: 3, Len: 114
+277:364  0:000    2. CA9FAB28: 'FPDT', 'A M I', Rev: 1, Len: 68
+277:364  0:000    3. CA9FAB70: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+277:364  0:000    4. CA9FB0B0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+277:364  0:000    5. CA9FBB88: 'MCFG', 'A M I', Rev: 1, Len: 60
+277:364  0:000    6. CA9FBBC8: 'HPET', 'A M I', Rev: 1, Len: 56
+277:364  0:000    7. CA9FBC00: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+277:364  0:000    8. CA9FBF70: 'SSDT', 'SaSsdt', Rev: 1, Len: 13537
+277:364  0:000    9. CA9FF458: 'BGRT', 'A M I', Rev: 0, Len: 56
+277:364  0:000    10. CA9FF490: 'DMAR', 'HSW', Rev: 1, Len: 168
+277:364  0:000  Found UEFI Acpi 1.0 RSDP at CA9EE000
+277:364  0:000  Printing ACPI tables from RSDP CA9EE000 ...
+277:364  0:000   CA9EE000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+277:364  0:000    (Xsdt: CA9EE080, Rsdt: CA9EE028)
+277:364  0:000    CA9EE080: 'XSDT', 'A M I', Rev: 1, Len: 124
+277:364  0:000    CA9EE028: 'RSDT', 'A M I', Rev: 1, Len: 80
+277:364  0:000    Tables in Xsdt: 11
+277:364  0:000    0. CA9FA9A0: 'FACP', 'A M I', Rev: 5, Len: 268
+277:364  0:000        (Dsdt: CA9EE190, Facs: CAA1F080, XDsdt: CA9EE190, XFacs: 0)
+277:364  0:000        CA9EE190: 'DSDT', 'A M I', Rev: 2, Len: 51212
+277:364  0:000        CAA1F080: 'FACS', Ver: 2, Len: 64
+277:364  0:000    1. CA9FAAB0: 'APIC', 'A M I', Rev: 3, Len: 114
+277:364  0:000    2. CA9FAB28: 'FPDT', 'A M I', Rev: 1, Len: 68
+277:364  0:000    3. CA9FAB70: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+277:364  0:000    4. CA9FB0B0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+277:364  0:000    5. CA9FBB88: 'MCFG', 'A M I', Rev: 1, Len: 60
+277:364  0:000    6. CA9FBBC8: 'HPET', 'A M I', Rev: 1, Len: 56
+277:364  0:000    7. CA9FBC00: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+277:364  0:000    8. CA9FBF70: 'SSDT', 'SaSsdt', Rev: 1, Len: 13537
+277:364  0:000    9. CA9FF458: 'BGRT', 'A M I', Rev: 0, Len: 56
+277:364  0:000    10. CA9FF490: 'DMAR', 'HSW', Rev: 1, Len: 168
+277:364  0:000    Tables in Rsdt: 11
+277:364  0:000    0. CA9EE108: 'FACP', 'A M I', Rev: 2, Len: 132
+277:364  0:000        (Dsdt: CA9EE190, Facs: CAA1F040)
+277:364  0:000        CA9EE190: 'DSDT', 'A M I', Rev: 2, Len: 51212
+277:364  0:000        CAA1F040: 'FACS', Ver: 0, Len: 64
+277:364  0:000    1. CA9FAAB0: 'APIC', 'A M I', Rev: 3, Len: 114
+277:364  0:000    2. CA9FAB28: 'FPDT', 'A M I', Rev: 1, Len: 68
+277:364  0:000    3. CA9FAB70: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+277:364  0:000    4. CA9FB0B0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+277:364  0:000    5. CA9FBB88: 'MCFG', 'A M I', Rev: 1, Len: 60
+277:364  0:000    6. CA9FBBC8: 'HPET', 'A M I', Rev: 1, Len: 56
+277:364  0:000    7. CA9FBC00: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+277:364  0:000    8. CA9FBF70: 'SSDT', 'SaSsdt', Rev: 1, Len: 13537
+277:364  0:000    9. CA9FF458: 'BGRT', 'A M I', Rev: 0, Len: 56
+277:364  0:000    10. CA9FF490: 'DMAR', 'HSW', Rev: 1, Len: 168
